@@ -1,0 +1,36 @@
+% EE 430 Digital Signal Processing MATLAB Tutorial
+% PART 1 - DISCRETE TIME SIGNALS AND SYSTEMS
+% M-File 3
+% LTI Systems
+j=sqrt(-1);
+close all
+
+% Convolution
+
+x=ones(1,100);
+nx1=-0;
+nx2=99;
+nh1=0;
+nh2=5;
+nh=nh1:nh2;
+h=0.9.^(nh);
+y=conv(x,h);
+ny1=nh1+nx1;
+ny2=nh2+nx2;
+stem(ny1:ny2,y)
+
+% Difference Equations
+% Ex1
+b=[1];
+a=[1 -1 0.9];
+y=filter(b,a,x);
+figure
+stem(y)
+
+% Ex2
+
+b=[1];
+a=[1 -0.9];
+y=filter(b,a,x);
+figure
+stem(y)

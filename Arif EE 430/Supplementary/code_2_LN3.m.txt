@@ -1,0 +1,9 @@
+clear all
+close all
+
+h = [2 -3 1 ]
+x = [1 0 0 0 -2]
+y = conv(h,x)
+yy = filter(h,1,x)
+yyy = filter(x,1,h)
+

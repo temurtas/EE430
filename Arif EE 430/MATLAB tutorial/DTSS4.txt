@@ -1,0 +1,122 @@
+% EE 430 Digital Signal Processing MATLAB Tutorial
+% PART 1 - DISCRETE TIME SIGNALS AND SYSTEMS
+% M-File 4
+% Discrete Time Fourier Analysis
+j=sqrt(-1);
+close all
+
+% Example 1
+
+h=ones(1,5);
+n=0:99;
+x=cos(2*pi/7*n);
+
+w=-pi:pi/100:pi;
+H=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(h)
+        H(rr)=H(rr)+h(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(H))
+figure
+plot(w,angle(H))
+
+figure
+stem(n,x);
+
+X=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(x)
+        X(rr)=X(rr)+x(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(X))
+
+
+y=conv(x,h);
+figure
+stem(y)
+
+Y=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(y)
+        Y(rr)=Y(rr)+y(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(Y))
+
+% Example 2
+x=cos(2*pi/7*n)+cos(2*pi/5*n);
+figure
+stem(x);
+
+X=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(x)
+        X(rr)=X(rr)+x(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(X))
+
+
+y=conv(x,h);
+figure
+stem(y)
+
+Y=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(y)
+        Y(rr)=Y(rr)+y(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(Y))
+
+% Example 3
+h=[ 1  -2   1];
+
+w=-pi:pi/100:pi;
+H=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(h)
+        H(rr)=H(rr)+h(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(H))
+figure
+plot(w,angle(H))
+
+n=1:100;
+x=5+cos(pi*n);
+
+figure
+stem(n,x);
+
+X=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(x)
+        X(rr)=X(rr)+x(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(X))
+
+
+y=conv(x,h);
+figure
+stem(y)
+
+Y=zeros(1,length(w));
+for rr=1:length(w)
+    for ss=1:length(y)
+        Y(rr)=Y(rr)+y(ss)*exp(-j*w(rr)*(ss-1));
+    end
+end
+figure
+plot(w,abs(Y))

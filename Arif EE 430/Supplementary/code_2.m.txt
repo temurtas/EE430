@@ -1,0 +1,76 @@
+clear all
+close all
+
+F0 = 100;  % kHz
+F0 = 1000 * F0;
+% sampling frequencies
+FS1 = 2000;  
+FS2 = 1000; 
+FS3 = 250;
+FS4 = 350
+
+FS1 = FS1*1000;  
+FS2 = FS2*1000;  
+FS3 = FS3*1000;  
+FS4 = FS4*1000;  
+
+
+
+n = 0:20;
+x1 = cos(2*pi*F0*n/FS1);
+x2 = cos(2*pi*F0*n/FS2);
+x3 = cos(2*pi*F0*n/FS3);
+x4 = cos(2*pi*F0*n/FS4);
+
+figure
+stem(n,x1,'r','LineWidth',2)
+hold
+stem(n,x2,'b','LineWidth',2)
+% stem(n,x3,'k')
+% stem(n,x4,'g')
+
+v = axis;
+dV = v(4)-v(3);
+v = [v(1)-2 v(2)+2 v(3)-0.1*dV v(4)+0.1*dV];
+axis(v)
+xlabel('n','fontsize',14);
+set(gca,'fontsize',14)
+% hleg = legend('Discrete','Continuous','location','southeast');
+% set(hleg,'fontsize', 9)
+
+
+
+FS = 100;  % kHz
+FS = 1000 * FS;
+% sampling frequencies
+F01 = 40;  
+F02 = 140; 
+F03 = 240;
+F04 = 340;
+
+F01 = F01*1000;  
+F02 = F02*1000;  
+F03 = F03*1000;  
+F04 = F04*1000;  
+
+n = 0:20;
+x1 = cos(2*pi*F01*n/FS);
+x2 = cos(2*pi*F02*n/FS);
+x3 = cos(2*pi*F03*n/FS);
+x4 = cos(2*pi*F04*n/FS);
+
+figure
+stem(n,x1,'b','LineWidth',2)
+hold
+stem(n,x2,'g','LineWidth',2)
+stem(n,x3,'r','LineWidth',2)
+stem(n,x4,'k','LineWidth',2)
+
+v = axis;
+dV = v(4)-v(3);
+v = [v(1)-2 v(2)+2 v(3)-0.1*dV v(4)+0.1*dV];
+axis(v)
+xlabel('n','fontsize',14);
+set(gca,'fontsize',14)
+% hleg = legend('Discrete','Continuous','location','southeast');
+% set(hleg,'fontsize', 9)

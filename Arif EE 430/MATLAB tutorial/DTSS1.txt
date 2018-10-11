@@ -1,0 +1,94 @@
+% EE 430 Digital Signal Processing MATLAB Tutorial
+% PART 1 - DISCRETE TIME SIGNALS AND SYSTEMS
+% M-File 1
+% Some Basic Sequences
+
+% 1) Unit Sample Sequence
+j=sqrt(-1);
+close all
+
+n1=-15;
+n2=20;
+n=[n1:n2];
+x=[n==0];
+stem(n,x)
+%hold on
+%plot(n,x,'r')
+%figure
+%stem(n,x,'m--')
+xlabel('n')
+ylabel('\delta[n]')
+title('Unit Sample Sequence')
+
+
+% 2) Unit Step Sequence
+
+n1=-30;
+n2=30;
+n=[n1:n2];
+x=[n>=0];
+figure
+stem(n,x)
+xlabel('n')
+ylabel('\u[n]')
+title('Unit Step Sequence')
+
+% 3) Real Valued Exponential Sequence
+
+n1=-10;
+n2=10;
+n=[n1:n2];
+x=(0.9).^n;
+figure
+stem(n,x)
+xlabel('n')
+ylabel('(0.9)^n')
+
+% 4) Complex Valued Exponential Sequence
+% 4)a) 
+
+n1=-10;
+n2=20;
+n=[n1:n2];
+x=exp(j*pi/4*n);
+figure
+stem(n,real(x))
+xlabel('n')
+ylabel('real(e^{j\pi/4*n})')
+
+figure
+stem(n,imag(x))
+xlabel('n')
+ylabel('imag(e^{j\pi/4n})')
+
+% 4)b) 
+
+n1=-10;
+n2=20;
+n=[n1:n2];
+x=exp((-0.8+j*pi/4)*n);
+figure
+stem(n,real(x))
+xlabel('n')
+ylabel('real(e^{(-0.8+j\pi/4)n})')
+
+figure
+stem(n,imag(x))
+xlabel('n')
+ylabel('imag(e^{(-0.8+j\pi/4)n})')
+
+% 4)c) 
+
+n1=0;
+n2=5;
+n=[n1:n2];
+x=exp((1.2+j*pi/4)*n);
+figure
+stem(n,real(x))
+xlabel('n')
+ylabel('real(e^{(1.2+j\pi/4)n})')
+
+figure
+stem(n,imag(x))
+xlabel('n')
+ylabel('imag(e^{(1.2+j\pi/4)n})')

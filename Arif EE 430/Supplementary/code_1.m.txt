@@ -1,0 +1,29 @@
+clear all
+close all
+
+N = 10;
+w0 = 2*pi / N ;
+alfa = 0.93;
+phase = 0;  
+% phase = pi/4;
+
+
+M = 3*N ;
+n =  [0:0.01:M];
+y = alfa.^n.*cos(w0*n-phase);
+
+nn = [0:M];
+x = alfa.^nn.*cos(w0*nn-phase);
+
+
+stem(nn,x,'r','LineWidth',3)
+hold
+plot(n,y,'k:','LineWidth',2)
+v = axis;
+dV = v(4)-v(3);
+v = [v(1)-2 v(2)+2 v(3)-0.1*dV v(4)+0.1*dV];
+axis(v)
+xlabel('n','fontsize',14);
+set(gca,'fontsize',14)
+% hleg = legend('Discrete','Continuous','location','southeast');
+% set(hleg,'fontsize', 9)
