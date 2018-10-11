@@ -1,0 +1,30 @@
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.1}Discrete-time (DT) signals}{\reset@font\mtcSfont 3}{section.1.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.1.1}Basic sequences and sequence operations}{\reset@font\mtcSSfont 3}{subsection.1.1.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Unit sample sequence}{\reset@font\mtcSSSfont 3}{section*.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Unit step sequence}{\reset@font\mtcSSSfont 4}{section*.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Exponential sequences}{\reset@font\mtcSSSfont 4}{section*.4}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Complex exponentials}{\reset@font\mtcSSSfont 5}{section*.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Transformation of independent variable $n$}{\reset@font\mtcSSSfont 6}{section*.6}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.2}Discrete-time (DT) systems}{\reset@font\mtcSfont 7}{section.1.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Notation:}{\reset@font\mtcSSSfont 7}{section*.7}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.1}Memoryless systems:}{\reset@font\mtcSSfont 7}{subsection.1.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.2}Linear systems:}{\reset@font\mtcSSfont 7}{subsection.1.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.3}Time-invariant systems:}{\reset@font\mtcSSfont 8}{subsection.1.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.4}Causality:}{\reset@font\mtcSSfont 8}{subsection.1.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.2.5}Stability:}{\reset@font\mtcSSfont 8}{subsection.1.2.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.3}Linear time-invariant (LTI) systems}{\reset@font\mtcSfont 9}{section.1.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.3.1}Computation of convolution sum:}{\reset@font\mtcSSfont 10}{subsection.1.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.4}Properties of convolution and LTI systems}{\reset@font\mtcSfont 11}{section.1.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.1}Properties of convolution}{\reset@font\mtcSSfont 11}{subsection.1.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.2}Properties of LTI systems}{\reset@font\mtcSSfont 11}{subsection.1.4.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.4.3}FIR and IIR systems}{\reset@font\mtcSSfont 13}{subsection.1.4.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.5}Linear constant-coefficient difference equations (LCCDE)}{\reset@font\mtcSfont 13}{section.1.5}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Initial rest conditions (IRC)}{\reset@font\mtcSSSfont 13}{section*.8}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Recursive calculation from LCCDE}{\reset@font\mtcSSSfont 14}{section*.9}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode LCCDE of FIR and IIR systems}{\reset@font\mtcSSSfont 14}{section*.10}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Transform domain approaches}{\reset@font\mtcSSSfont 15}{section*.11}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.6}Frequency domain representation of DT signals and systems}{\reset@font\mtcSfont 15}{section.1.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode Suddenly applied complex exponential inputs}{\reset@font\mtcSSSfont 17}{section*.12}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.7}Representation of sequences by Fourier transforms}{\reset@font\mtcSfont 17}{section.1.7}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.8}Symmetry properties of DT Fourier transforms}{\reset@font\mtcSfont 17}{section.1.8}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.9}DT Fourier transform theorems}{\reset@font\mtcSfont 17}{section.1.9}}

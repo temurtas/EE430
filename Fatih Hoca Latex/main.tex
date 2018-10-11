@@ -1,0 +1,439 @@
+\documentclass[10pt,a4paper,report]{report}       %a4paper, report format, 15pt letters
+\usepackage{amsmath, epsfig, indentfirst, graphics, enumerate} 
+\usepackage{graphicx, amsfonts}                              %graphics related package
+%\usepackage{color}                                 %you can add colors with this package
+\usepackage[colorlinks]{hyperref}
+\usepackage{etoc,minitoc, adjustbox}
+\usepackage{mathrsfs, relsize}
+
+\setlength{\textwidth}{7in} \setlength{\textheight}{10in}
+\setlength{\topmargin}{-.5in} \setlength{\oddsidemargin}{-0.2in}
+
+\parindent 0in
+%\parskip 0.1in2
+
+% Definitions for some environments
+\newtheorem{define}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{proof}{Proof}
+\newtheorem{corollary}{Corollary}
+
+\newenvironment{ex}{\textbf{Ex: }} {\vspace{2cm}}
+
+\usepackage{setspace}
+%\singlespacing
+\onehalfspacing
+
+% definitions
+\newcommand{\om}{\omega}
+
+
+% ------------------------------------------------------------------------
+% Document Starts here:
+% ------------------------------------------------------------------------
+\begin{document}
+
+\begin{titlepage}
+    \begin{center}
+        \vspace*{1cm}
+        \vspace{3.5cm}
+        \textbf{{\Huge Lecture Notes}}
+        
+        \vspace{1.5cm}
+        \textbf{{\Huge EE430 Digital Signal Processing}}
+        
+        \vspace{0.5cm}
+        \vspace{5.5cm}
+        \vspace{2.5cm}
+        \textbf{{\Large Department of Electrical and Electronics Engineering}}
+        
+        \vspace{0.5cm}
+        \textbf{{\Large Middle East Technical University (METU)}}
+    \end{center}
+\end{titlepage}
+
+\dominitoc% Initialization
+\tableofcontents % Global toc
+\large % You can increase or reduce sizes of letters by using such comments.
+
+
+% ------ New Chapter starts here -----------------------------------------
+% ------------------------------------------------------------------------
+\chapter{Discrete-time Signals and Systems}
+\minitoc% Creating an actual minitoc
+\vspace {2cm}
+
+This chapter covers the fundamental concepts of discrete-time (DT) signals and systems. In particular, we cover Sections 2.1 to 2.9 from our textbook.\\
+
+
+Reading assignment for this chapter :
+\begin{itemize}
+  \item Sections 2.1 to 2.9 from our textbook.
+\end{itemize}
+
+\newpage
+%----------------------------------------------------------------------------------------------
+\section{Discrete-time (DT) signals}
+
+A DT signal is simply a sequence of numbers indexed by integer $n$.\\
+\vspace{3cm}
+
+Our notation to show a DT signal is : \\
+
+A DT signal can be obtained from
+\begin{itemize}
+  \item an inherently discrete event (e.g. number of students attending lecture $n$)
+  \item sampling of a continuous-time (CT) signal :
+\end{itemize}
+\vspace{3cm}
+
+
+\subsection{Basic sequences and sequence operations}
+
+\subsubsection{Unit sample sequence}
+\vspace{2cm}
+
+Any sequence $x[n]$ can be written in terms of delayed and scaled $\delta[n]$.\\
+\vspace{3cm}
+
+For an arbitrary $x[n]$, we have :\\
+\vspace{2cm}
+
+\subsubsection{Unit step sequence}
+\vspace{2cm}
+
+Relations between unit step and sample sequences:\\
+\vspace{3cm}
+
+\subsubsection{Exponential sequences}
+General form :\\
+
+If $A$ and $\alpha$ are real, $x[n]$ is real.
+\begin{itemize}
+  \item $A>0$, $0<\alpha<1$ : $x[n]$ decreases in time
+  \item $A>0$, $-1<\alpha<0$ : $x[n]$ increases in time with alternating sign
+  \item $|\alpha|>1$ : $x[n]$ grows in magnitude as $n$ increases 
+\end{itemize}
+\vspace{3cm}
+
+If $A$ and $\alpha$ are complex :
+\vspace{8cm}
+
+\subsubsection{Complex exponentials}
+\begin{center}
+$x[n]=\qquad \qquad \qquad \qquad$\\
+\end{center}
+
+Properties :
+\begin{enumerate}
+  \item Complex exponentials $Ae^{j(\om_0+2\pi r)n}$ with frequencies $(\om_0 + 2\pi r), ~r\in \mathbb{Z}$ (e.g. $\om_0$, $\om_0+2\pi$, $\om_0+4\pi$, ...) are equivalent to each other:\vspace{2cm}
+  
+  \item Based on above property, when discussing complex exponentials $Ae^{j\om_0n}$ (or sinusoids $\cos(\om_0n+\phi)$), we only need to consider and interval of length $2\pi$ for frequency $\om_0$:\vspace{2cm}
+  
+  \item Complex exponentials $Ae^{j\om_0n}$ (or sinusoids $\cos(\om_0n+\phi)$) are \underline{periodic only if } $\frac{2\pi}{\om_0}$ is a ratio of integers, i.e. \\
+  \vspace{0.5cm} 
+  Remember periodicity requirement for any sequence $x[n]$:\\
+  \vspace{4cm}
+  
+  \ex Are following sequences periodic ? If so, find the periods.\\
+  $x_1[n]=\cos(n) \qquad \qquad x_2[n]=\cos(\frac{2\pi}{8}n) \qquad \qquad x_3[n]=\cos(\frac{3\pi}{8}n+\phi)$
+  \vspace{6cm}
+  
+  \item (Prop.1 + Prop. 3) There are only $N$ distinguishable frequencies for which the complex exponentials $Ae^{j\om_0n}$ (or sinusoids $\cos(\om_0n+\phi)$) are periodic with $N$: \vspace{4cm}
+  
+  \item For complex exponentials $Ae^{j\om_0n}$ (or sinusoids $\cos(\om_0n+\phi)$), 
+  \begin{itemize}
+    \item low frequencies are in the vicinity of $\om_0=$ 
+    \item high frequencies are in the vicinity of $\om_0=$
+  \end{itemize}
+  \vspace{3cm}
+  Rate of oscillation of complex exp. (or sinusoid) determines whether frequency is high or low:
+  \begin{figure}[h]
+    %%\includegraphics[clip,trim=1.4cm  1.8cm  1.4cm  1.2cm, width=1.00\textwidth]{./chp1/figs/Slayt5.JPG}
+  \end{figure}
+  
+\end{enumerate}
+
+\underline{Note :} For CT complex exponential $x(t)=Ae^{j\phi_0t}$, \underline{none} of the above 5 properties hold :
+\begin{enumerate}
+  \item 
+  \item
+  \item
+  \item
+  \item
+\end{enumerate}
+\vspace{1cm}
+
+\subsubsection{Transformation of independent variable $n$}
+Time shift:
+\vspace{4.5cm}
+
+Time reversal:
+\vspace{4.5cm}
+
+Note : First time shift, then time reversal $\neq$ first time reversal, then time shift\\
+\vspace{1cm}
+
+
+\section{Discrete-time (DT) systems}
+
+\subsubsection{Notation:} \vspace{3cm}
+
+\subsection{Memoryless systems:} 
+Output $y[n]$ does not depend on past or future values of input $x[n]$. \\
+\ex
+\vspace{3cm}
+
+\subsection{Linear systems:} 
+The systems satisfies the following relation for any $a, b, x_1[n], x_2[n]$: 
+\vspace{4cm}\\
+\vspace{3cm}
+
+In a linear system, if input \\ 
+\vspace{2cm}
+
+\ex Are these systems linear ?\\
+\vspace{9cm}
+
+\subsection{Time-invariant systems:} 
+Any time shift at the input causes a time shift at the output by the same amount.\\
+\vspace{2cm}
+
+\ex Are these systems time-invariant ? (Accumulator)
+\vspace{4cm}
+
+\ex Are these systems time-invariant ? (Compressor)
+\vspace{3cm}
+
+\subsection{Causality:}
+Current output sample $y[n]$ depends only on current and past input samples $x[n], x[n-1],x[n-2],...$\\
+\ex
+\vspace{3cm}
+
+\subsection{Stability:}
+A system is stable if and only if (iff) every bounded input (i.e. $\qquad \qquad \qquad\qquad\qquad$) produces a bounded output (i.e. $\qquad \qquad \qquad\qquad\qquad$).\\
+\ex 
+\vspace{6cm}
+
+
+\section{Linear time-invariant (LTI) systems}
+LTI systems have both linearity and time-invariance properties.\\ 
+LTI systems are a very important class of systems.\\
+The output of a LTI system to an arbitrary input can be calculated by the famous convolution sum:
+\vspace{5cm}\\
+\vspace{4cm}\\
+
+Hence, for any input $x[n]$ to an LTI system, output \\
+\vspace{2cm}
+
+An LTI system is \underline{completely characterized} by its impulse response $h[n]=T\{\delta[n]\}$.
+\vspace{4cm}\\
+\vspace{4cm}\\
+
+\subsection{Computation of convolution sum:}
+\vspace{2cm}
+\ex $x[n]=\delta[n+2]+2\delta[n]-\delta[n-3]$ is input to LTI system with impulse response $h[n]=3\delta[n]+2\delta[n-1]+\delta[n-2]$. Find output $y[n]$ using two methods.\\
+\vspace{3cm}\\
+\underline{Echo method} : Add outputs to each weighted and delayed delta function in the input. (Useful when input has few samples.)\\
+\vspace{4cm}\\
+\vspace{4cm}\\
+\underline{Sliding average method} : Apply definition of convolution sum.\\
+\vspace{4cm}\\
+\vspace{4cm}
+
+\ex Impulse response of LTI system is $h[n]=u[n]-u[n-N]$ and input $x[n]=a^nu[n], \quad 0<a<1$. Find output $y[n]$.\\
+\vspace{3cm}\\
+\vspace{4cm}
+
+
+\section{Properties of convolution and LTI systems}
+\subsection{Properties of convolution}
+\begin{itemize}
+ \item \textbf{Distribution} over addition:\\ \\
+ \item \textbf{Commutative} property:\\ \\
+ \item \textbf{Associative} property:\\ \\
+\end{itemize}
+\begin{figure}[ht]
+\centering
+\begin{minipage}{.45\textwidth}
+  \centering
+  %\includegraphics[clip,trim=1.4cm  1.8cm  1.4cm  1.2cm, width=0.80\textwidth]{./chp1/figs_textbook_chp2/image_11.jpg}
+  %%\includegraphics[width=0.55\textwidth]{./chp1/figs_textbook_chp2/image_11.jpg}
+  \caption{}{(Figure 2.11 in textbook) (a) Parallel combination of LTI systems (b) an equivalent system.}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.45\textwidth}
+  \centering
+  %\includegraphics[clip,trim=1.4cm  1.8cm  1.4cm  1.2cm, width=0.80\textwidth]{./chp1/figs_textbook_chp2/image_12.jpg}
+  %%\includegraphics[width=0.55\textwidth]{./chp1/figs_textbook_chp2/image_12.jpg}
+  \caption{}{(Figure 2.12 in textbook) (a) Cascade combination of LTI systems (b) equivalent cascade system (c) single equivalent system.}
+  \label{fig:test2}
+\end{minipage}
+%\caption{A}
+\end{figure}
+
+\subsection{Properties of LTI systems}
+\begin{itemize}
+ \item \textbf{Impulse response property:} An LTI system is completely characterized/specified/determined by its impulse response $h[n]$.\\ $\Longrightarrow$ \\
+ \item \textbf{Memory property:} LTI system is memoriless $\Longleftrightarrow$ \\
+ \vspace{2cm}
+ \item \textbf{Causality property:} LTI system is causal $\Longleftrightarrow$ \\
+ \vspace{2cm}
+ \item \textbf{Stability property:} LTI system is stable $\Longleftrightarrow$ \\
+ Proof given in two steps.\\
+ Step-1 : Sufficiency, i.e. if $\sum_{n=-\infty}^{\infty}|h[n]|<\infty$, then LTI system is stable.\\ 
+ \vspace{3cm}\\
+ Step-2 : Necessity, i.e. for LTI system to be stable, we must have $\sum_{n=-\infty}^{\infty}|h[n]|<\infty$.\\
+ \vspace{5.5cm}\\
+ \item \textbf{Invertibility property:} LTI system ($h[n]$) is invertible $\Longleftrightarrow$ There is another LTI system ($g[n]$) such that $h[n]*g[n]=\delta[n]$.\\
+ \vspace{1.5cm}
+\end{itemize}
+
+\subsection{FIR and IIR systems}
+\textbf{FIR} : \textbf{F}inite (-duration) \textbf{I}mpulse \textbf{R}esponse ($h[n]$ has finite number of nonzero samples)\\
+\hspace*{1cm} \ex \\ \\
+\textbf{IIR} : \textbf{I}nfinite (-duration) \textbf{I}mpulse \textbf{R}esponse ($h[n]$ has infinite number of nonzero samples)\\
+\hspace*{1cm} \ex \\
+
+
+\section{Linear constant-coefficient difference equations (LCCDE)}
+An important subclass of LTI systems exist, where the input $x[n]$ and output $y[n]$ satisfy an  LCCDE.\\ \vspace{1.5cm}
+
+\ex Accumulator : \\
+\vspace{3cm}
+
+\ex LTI system with impulse response $h[n]=\frac{1}{n^2}u[n-1]$. System is LTI, but cannot be represented with and LCCDE.\\
+
+\subsubsection{Initial rest conditions (IRC)}
+An LCCDE alone does \underline{not uniquely} specify a system. (i.e. there may be multiple systems satisfying the same LCCDE)
+\begin{itemize}
+  \item Auxiliary conditions are required together with LCCDE to uniquely specify the system.
+  \item Some auxiliary conditions may result in non-LTI system.
+  \item The so-called \textbf{"initial rest" auxiliary conditions} lead to a \underline{unique} \underline{LTI and causal} system.\\
+  \textbf{Initial rest conditions (IRC)} :\\
+  \vspace{1cm}
+\end{itemize}
+
+In this course, we are mostly interested in \underline{finding impulse response $h[n]$ of LTI} systems (and not necessarily the output $y[n]$ for an arbitrary $x[n]$, because we can then use convolution..).\\  
+$\Longrightarrow$ \\ 
+
+We can find the desired $h[n]$ in two steps :
+\begin{enumerate}
+  \item Find \textbf{homogeneous solution} from \\
+  \vspace{1cm}
+  \item Find \textbf{initial conditions} for the homogeneous solution using \\
+  \vspace{1cm}
+\end{enumerate}
+
+\ex System satisfies : $y[n]-3y[n-1]-4y[n-2] = x[n]+2x[n]$. Find $h[n]$ under IRC.\\
+\vspace{3cm}\\
+\vspace{3cm}
+
+\subsubsection{Recursive calculation from LCCDE}
+The \textbf{recursive nature of LCCDE} are very powerful/useful and can also be used to calculate the output $y[n]$ recursively, under many auxiliary conditions.\\
+\ex (Same LCCDE) $y[n]-3y[n-1]-4y[n-2] = x[n]+2x[n]$\\
+\vspace{4cm}
+
+\subsubsection{LCCDE of FIR and IIR systems}
+\underline{If $N=0$}, in the LCCDE equation, we have\\
+\begin{itemize}
+  \item no recursion and thus no initial/auxiliary conditions are required to compute output
+  \item actually, the LCCDE is in the form of a convolution where\\ \\
+\end{itemize}
+\underline{If $N>1$}, in the LCCDE equation, we have\\
+\begin{itemize}
+  \item recursion is required to compute output
+  \item if IRC used, system is LTI and causal and IIR due to recursion
+\end{itemize}
+
+\subsubsection{Transform domain approaches}
+Transform domain approaches are best/useful for LCCDE describing LTI systems.\\
+\ex LCCDE : $y[n]-3y[n-1]-4y[n-2] = x[n]+2x[n]$\\
+\vspace{4cm}
+
+
+
+\section{Frequency domain representation of DT signals and systems}
+Consider an LTI system with impulse response $h[n]$ and input $x[n]$. The output $y[n]$ is \\ \vspace{1.5cm}
+
+If $x[n]=e^{j\om n}$ for $-\infty < n < \infty$ (i.e. complex exponential with frequency $\om$) \\ 
+\vspace{1.5cm}\\
+\vspace{3cm}\\
+$\Longrightarrow$ \textbullet $~$ $e^{j\om n}$ is the \textbf{eigenfunction} for all LTI systems.\\
+\hspace*{0.71cm}  \textbullet $~$ The corresponding \textbf{eigenvalue} is $H(e^{j\om})$, also called the \textbf{frequency response} of the system.\\
+
+\ex What is the frequency response of and ideal delay system ?\\
+\vspace{2cm}\\
+\vspace{2cm}
+
+It will be shown that a broad class of signals can be represented by a sum of complex exponentials\\
+\vspace{1.0cm}
+
+Hence, for an LTI system, the output can be easily calculated\\
+\vspace{1.5cm}
+
+Note that the frequency response is periodic with $2\pi$: \\ 
+\vspace{0.5cm}%$H(e^{j\om})=H(e^{j(\om+2\pi)})$\\
+
+Therefore, frequency response can be defined only over a range of $2\pi$ :\\
+\vspace{0.5cm}
+
+Note that the signals $e^{j\om n}$ and $e^{j(\om +2\pi)n}$ are equal and hence the system cannot differentiate between these eigenfunctions.\\
+
+\ex Input to an LTI systems is $x[n]=A\cos(\om_0n+\phi)$. Find output in terms of $H(e^{j\om})$.\\
+\vspace{2cm}\\
+\vspace{1cm}\\ 
+\vspace{2cm}\\ 
+
+An important class of LTI systems, called \textbf{frequency selective filters}, have frequency response $H(e^{j \om})$ that is unity (i.e. 1) over a range of frequencies and  0 for the remaining frequencies.
+\begin{figure}[h!]
+\centering
+\begin{minipage}{.57\textwidth}
+  \centering
+  %%\includegraphics[width=0.95\textwidth]{./chp1/figs_textbook_chp2/image_17.jpg}
+  \caption{}{(Figure 2.17 in textbook) Ideal lowpass filter showing (a) periodicity of frequency response and (b) one period of frequncy response.}
+  \label{fig:test1}
+\end{minipage}%
+\begin{minipage}{.41\textwidth}
+  \centering
+  %%\includegraphics[width=0.85\textwidth]{./chp1/figs_textbook_chp2/image_18.jpg}
+  \caption{}{(Figure 2.18 in textbook) Ideal frequency selective filters (a) Highpass filter (b) Bandstop filter (c) Bandpass filter.}
+  \label{fig:test2}
+\end{minipage}
+%\caption{A}
+\end{figure}
+
+\ex Moving average system: $y[n]=\frac{1}{M_1+M_2+1}\sum_{k=-M_1}^{M2}x[n-k]$.
+$~$LTI ? If so, find $h[n]$ and $H(e^{j\om})$.\\
+\vspace{2cm}\\
+\vspace{2cm}\\
+\vspace{3cm}\\
+\vspace{2cm}\\
+
+\subsubsection{Suddenly applied complex exponential inputs}
+This subsection (Sec. 2.6.2 in textbook) is a reading assignment. It discusses LTI system when inputs are of the form $x[n]=e^{j\om_0 n}u[n]$ instead of $x[n]=e^{j\om_0 n}$.\\
+\vspace{2cm}
+
+
+\section{Representation of sequences by Fourier transforms}
+
+\section{Symmetry properties of DT Fourier transforms}
+
+\section{DT Fourier transform theorems}
+
+
+
+\newpage
+%% ----------------------------------------------------------------------------
+% ---------------------WRITE YOUR PART HERE -----------------------------------
+(WRITE YOUR PART HERE)\\
+
+
+
+%% ----------------------------------------------------------------------------
+
+\end{document}
+% ------------------------------------------------------------------------
+% Document Starts here:
+% ------------------------------------------------------------------------
