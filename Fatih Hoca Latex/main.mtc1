@@ -28,3 +28,6 @@
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.7}Representation of sequences by Fourier transforms}{\reset@font\mtcSfont 17}{section.1.7}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.8}Symmetry properties of DT Fourier transforms}{\reset@font\mtcSfont 17}{section.1.8}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.9}DT Fourier transform theorems}{\reset@font\mtcSfont 17}{section.1.9}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {1.10}Computing Linear Convolution using DFT}{\reset@font\mtcSfont 18}{section.1.10}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.10.1}Linear Convolution of Two Finite Length Sequences}{\reset@font\mtcSSfont 18}{subsection.1.10.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {1.10.2}Circular Convolution as Linear Convolution with Aliasing}{\reset@font\mtcSSfont 18}{subsection.1.10.2}}

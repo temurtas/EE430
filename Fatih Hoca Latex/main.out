@@ -18,3 +18,6 @@
 \BOOKMARK [1][-]{section.1.7}{Representation of sequences by Fourier transforms}{chapter.1}% 18
 \BOOKMARK [1][-]{section.1.8}{Symmetry properties of DT Fourier transforms}{chapter.1}% 19
 \BOOKMARK [1][-]{section.1.9}{DT Fourier transform theorems}{chapter.1}% 20
+\BOOKMARK [1][-]{section.1.10}{Computing Linear Convolution using DFT}{chapter.1}% 21
+\BOOKMARK [2][-]{subsection.1.10.1}{Linear Convolution of Two Finite Length Sequences}{section.1.10}% 22
+\BOOKMARK [2][-]{subsection.1.10.2}{Circular Convolution as Linear Convolution with Aliasing}{section.1.10}% 23
