@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  13 NOV 2018 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  13 NOV 2018 22:50
 entering extended mode
-**./EE430_HW_1_2094522.tex
-(EE430_HW_1_2094522.tex
+**./EE430_HW_2_2094522.tex
+(EE430_HW_2_2094522.tex
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -950,66 +950,36 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\steinmetz\steinmetz.sty"
-Package: steinmetz 2009/06/14 v1.0 Steinmetz symbol for electrotechnics
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pict2e\pict2e.sty"
-Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pict2e\pict2e.cfg"
-File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
-)
-Package pict2e Info: Driver file: pdftex.def on input line 119.
-Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pict2e\p2e-pdftex.def"
-File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
-)
-\pIIe@GRAPH=\toks50
-\@arclen=\dimen282
-\@arcrad=\dimen283
-\@tempdimd=\dimen284
-)
-\stm@phasebox=\box77
-\stm@phasedp=\skip67
-\stm@phaseht=\skip68
-\stm@phasetot=\skip69
-\stm@phasewd=\skip70
-)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 205.
+less on input line 204.
 
 
 Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 206.
+less on input line 205.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 207.
+less on input line 206.
 
-(EE430_HW_1_2094522.aux
+(EE430_HW_2_2094522.aux)
+\openout1 = `EE430_HW_2_2094522.aux'.
 
-LaTeX Warning: Label `fig:q13f' multiply defined.
-
-)
-\openout1 = `EE430_HW_1_2094522.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 209.
-LaTeX Font Info:    ... okay on input line 209.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 208.
+LaTeX Font Info:    ... okay on input line 208.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1051,26 +1021,26 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count188
-\scratchdimen=\dimen285
-\scratchbox=\box78
+\scratchdimen=\dimen282
+\scratchbox=\box77
 \nofMPsegments=\count189
 \nofMParguments=\count190
-\everyMPshowfont=\toks51
+\everyMPshowfont=\toks50
 \MPscratchCnt=\count191
-\MPscratchDim=\dimen286
+\MPscratchDim=\dimen283
 \MPnumerator=\count192
 \makeMPintoPDFobject=\count193
-\everyMPtoPDFconversion=\toks52
+\everyMPtoPDFconversion=\toks51
 ) ABD: EveryShipout initializing macros
-LaTeX Info: Redefining \celsius on input line 209.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 209
+LaTeX Info: Redefining \celsius on input line 208.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 208
 .
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 209.
-Package gensymb Info: Using \Omega for \ohm on input line 209.
+LaTeX Info: Redefining \ohm on input line 208.
+Package gensymb Info: Using \Omega for \ohm on input line 208.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1078,7 +1048,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count194
-\AtBeginShipoutBox=\box79
+\AtBeginShipoutBox=\box78
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
@@ -1091,28 +1061,22 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 209.
+ on input line 208.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 215.
+LaTeX Font Info:    Try loading font information for U+msa on input line 214.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 215.
+LaTeX Font Info:    Try loading font information for U+msb on input line 214.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-468.def"
-File: uni-468.def 2013/05/13 UCS: Unicode data U+1D400..U+1D4FF
-)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 246.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
+<images/Q1ak.png, id=4, 499.8675pt x 416.30531pt>
+File: images/Q1ak.png Graphic file (type png)
+ <use images/Q1ak.png>
+Package pdftex.def Info: images/Q1ak.png used on input line 238.
+(pdftex.def)             Requested size: 302.45116pt x 251.90042pt.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-1.def"
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
@@ -1123,10 +1087,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<eelogo.png, id=4, 617.30624pt x 489.83pt>
-File: eelogo.png Graphic file (type png)
- <use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 248.
+<images/eelogo.png, id=5, 617.30624pt x 489.83pt>
+File: images/eelogo.png Graphic file (type png)
+ <use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 243.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1137,16 +1101,28 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./eelogo.png>]
+ <./images/Q1ak.png (PNG copy)> <./images/eelogo.png>]
+<images/Q1b1k.png, id=20, 421.575pt x 316.18124pt>
+File: images/Q1b1k.png Graphic file (type png)
+ <use images/Q1b1k.png>
+Package pdftex.def Info: images/Q1b1k.png used on input line 256.
+(pdftex.def)             Requested size: 215.07349pt x 161.30818pt.
+
+<images/Q1b2k.png, id=21, 421.575pt x 316.18124pt>
+File: images/Q1b2k.png Graphic file (type png)
+ <use images/Q1b2k.png>
+Package pdftex.def Info: images/Q1b2k.png used on input line 261.
+(pdftex.def)             Requested size: 215.07349pt x 161.30818pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 270.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 276.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1155,21 +1131,16 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <q4.png, id=23, 871.00406pt x 316.18124pt>
-File: q4.png Graphic file (type png)
- <use q4.png>
-Package pdftex.def Info: q4.png used on input line 280.
-(pdftex.def)             Requested size: 448.07378pt x 162.65424pt.
-
+[2 <./images/Q1b1k.png (PNG copy)> <./images/Q1b2k.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 301.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 299.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1178,16 +1149,21 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[3 <./q4.png (PNG copy)>]
+[3] <images/Q3k.png, id=31, 616.55344pt x 608.2725pt>
+File: images/Q3k.png Graphic file (type png)
+ <use images/Q3k.png>
+Package pdftex.def Info: images/Q3k.png used on input line 327.
+(pdftex.def)             Requested size: 302.45116pt x 298.39027pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 349.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 330.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1203,9 +1179,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 383.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 342.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1214,16 +1190,22 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[5 <./images/Q3k.png>] <images/Q5ak.png, id=40, 395.97937pt x 351.56343pt>
+File: images/Q5ak.png Graphic file (type png)
+
+<use images/Q5ak.png>
+Package pdftex.def Info: images/Q5ak.png used on input line 366.
+(pdftex.def)             Requested size: 302.45116pt x 268.53207pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 403.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 369.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1232,11 +1214,11 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6] <8c.png, id=37, 421.575pt x 316.18124pt>
-File: 8c.png Graphic file (type png)
- <use 8c.png>
-Package pdftex.def Info: 8c.png used on input line 420.
-(pdftex.def)             Requested size: 448.07378pt x 336.06235pt.
+[6] <images/Q5bk.png, id=44, 344.03531pt x 256.70906pt>
+File: images/Q5bk.png Graphic file (type png)
+ <use images/Q5bk.png>
+Package pdftex.def Info: images/Q5bk.png used on input line 387.
+(pdftex.def)             Requested size: 302.45116pt x 225.68138pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1244,9 +1226,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 423.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 389.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1255,20 +1237,16 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] (q8.m)
-Underfull \hbox (badness 10000) in paragraph at lines 428--430
-
- []
-
+[7 <./images/Q5ak.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 430.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 405.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1277,16 +1255,16 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8 <./8c.png (PNG copy)>]
+[8 <./images/Q5bk.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 451.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 434.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1302,9 +1280,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 479.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 457.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1313,11 +1291,23 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10] <q10a.png, id=52, 374.14781pt x 301.125pt>
-File: q10a.png Graphic file (type png)
- <use q10a.png>
-Package pdftex.def Info: q10a.png used on input line 495.
-(pdftex.def)             Requested size: 268.847pt x 216.3871pt.
+[10] <images/Q8bk.png, id=60, 344.03531pt x 256.70906pt>
+File: images/Q8bk.png Graphic file (type png)
+ <use images/Q8bk.png>
+Package pdftex.def Info: images/Q8bk.png used on input line 462.
+(pdftex.def)             Requested size: 302.45116pt x 225.68138pt.
+
+<images/Q9ak.png, id=61, 394.47375pt x 51.19125pt>
+File: images/Q9ak.png Graphic file (type png)
+ <use images/Q9ak.png>
+Package pdftex.def Info: images/Q9ak.png used on input line 476.
+(pdftex.def)             Requested size: 448.07378pt x 58.14693pt.
+
+<images/Q9b2k.png, id=62, 286.82156pt x 55.70813pt>
+File: images/Q9b2k.png Graphic file (type png)
+ <use images/Q9b2k.png>
+Package pdftex.def Info: images/Q9b2k.png used on input line 485.
+(pdftex.def)             Requested size: 358.46039pt x 69.62392pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1325,9 +1315,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 499.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 487.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1336,11 +1326,12 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11 <./q10a.png>] <q10b.png, id=58, 375.65344pt x 298.11375pt>
-File: q10b.png Graphic file (type png)
- <use q10b.png>
-Package pdftex.def Info: q10b.png used on input line 508.
-(pdftex.def)             Requested size: 268.847pt x 213.36806pt.
+[11 <./images/Q8bk.png> <./images/Q9ak.png>]
+<images/Q9ck.png, id=68, 421.575pt x 316.18124pt>
+File: images/Q9ck.png Graphic file (type png)
+ <use images/Q9ck.png>
+Package pdftex.def Info: images/Q9ck.png used on input line 493.
+(pdftex.def)             Requested size: 448.07378pt x 336.06235pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1348,9 +1339,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 530.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 498.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1359,26 +1350,24 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./q10b.png>] <q11a.png, id=63, 775.39688pt x 462.97969pt>
-File: q11a.png Graphic file (type png)
- <use q11a.png>
-Package pdftex.def Info: q11a.png used on input line 547.
-(pdftex.def)             Requested size: 268.847pt x 160.52644pt.
+[12 <./images/Q9b2k.png> <./images/Q9ck.png (PNG copy)>] (Q1.m
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
-
- []
-
-(q13.m
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 2.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 503.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1387,33 +1376,23 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./q11a.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 6.
+[13] (Q9.m
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 17.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
-) <q13b2.png, id=69, 421.575pt x 316.18124pt>
-File: q13b2.png Graphic file (type png)
- <use q13b2.png>
-Package pdftex.def Info: q13b2.png used on input line 559.
-(pdftex.def)             Requested size: 268.847pt x 201.63644pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 561--562
-
- []
-
-(q13.m
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 17.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 23.
+File: images/eelogo.png Graphic file (type png)
+<use images/eelogo.png>
+Package pdftex.def Info: images/eelogo.png used on input line 507.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1422,170 +1401,31 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./q13b2.png (PNG copy)>]) <q13c.png, id=73, 421.575pt x 316.18124pt>
-File: q13c.png Graphic file (type png)
-
-<use q13c.png>
-Package pdftex.def Info: q13c.png used on input line 567.
-(pdftex.def)             Requested size: 403.26366pt x 302.45467pt.
- (q13.m)
-Underfull \hbox (badness 10000) in paragraph at lines 570--571
-
- []
-
-<q13d1.png, id=74, 421.575pt x 316.18124pt>
-File: q13d1.png Graphic file (type png)
- <use q13d1.png>
-Package pdftex.def Info: q13d1.png used on input line 575.
-(pdftex.def)             Requested size: 268.847pt x 201.63644pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 578.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./q13c.png (PNG copy)>] (q13.m)
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
-
- []
-
-<q13e.png, id=78, 421.575pt x 316.18124pt>
-File: q13e.png Graphic file (type png)
- <use q13e.png>
-Package pdftex.def Info: q13e.png used on input line 583.
-(pdftex.def)             Requested size: 403.26366pt x 302.45467pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 585.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16 <./q13d1.png (PNG copy)>] (q13.m)
-Underfull \hbox (badness 10000) in paragraph at lines 586--587
-
- []
-
-<q13f.png, id=82, 421.575pt x 316.18124pt>
-File: q13f.png Graphic file (type png)
- <use q13f.png>
-Package pdftex.def Info: q13f.png used on input line 591.
-(pdftex.def)             Requested size: 403.26366pt x 302.45467pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 594.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <./q13e.png (PNG copy)>] (q13.m)
-Underfull \hbox (badness 10000) in paragraph at lines 594--595
-
- []
-
-File: q13f.png Graphic file (type png)
-<use q13f.png>
-Package pdftex.def Info: q13f.png used on input line 599.
-(pdftex.def)             Requested size: 403.26366pt x 302.45467pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 601.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18 <./q13f.png (PNG copy)>] (q13.m)
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: eelogo.png Graphic file (type png)
-<use eelogo.png>
-Package pdftex.def Info: eelogo.png used on input line 612.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[19] (EE430_HW_1_2094522.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+[14] (EE430_HW_2_2094522.aux) ) 
 Here is how much of TeX's memory you used:
- 31061 strings out of 493333
- 708964 string characters out of 3136576
- 1045220 words of memory out of 3000000
- 33966 multiletter control sequences out of 15000+200000
- 9947 words of font info for 37 fonts, out of 3000000 for 9000
+ 30603 strings out of 493333
+ 703042 string characters out of 3136576
+ 1080569 words of memory out of 3000000
+ 33536 multiletter control sequences out of 15000+200000
+ 10758 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,16n,96p,785b,2064s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on EE430_HW_1_2094522.pdf (19 pages, 434936 bytes).
+ 62i,16n,96p,785b,1946s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on EE430_HW_2_2094522.pdf (14 pages, 413559 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
