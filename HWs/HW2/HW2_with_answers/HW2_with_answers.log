@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  9 NOV 2018 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100) (preloaded format=pdflatex 2018.6.27)  20 DEC 2018 20:10
 entering extended mode
 **./HW2_with_answers.tex
 (HW2_with_answers.tex
@@ -1067,46 +1067,29 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into
 your preamble.
  on input line 208.
 
-<../images/Q3.png, id=4, 905.63344pt x 477.28313pt>
-File: ../images/Q3.png Graphic file (type png)
- <use ../images/Q3.png>
-Package pdftex.def Info: ../images/Q3.png used on input line 218.
-(pdftex.def)             Requested size: 448.07378pt x 236.14299pt.
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.220 		\end{figure}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=6, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf>
-Package pdftex.def Info: ../images/Q3s.pdf used on input line 223.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf>
-Package pdftex.def Info: ../images/Q3s.pdf used on input line 223.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=9, page=1, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 1>
-Package pdftex.def Info: ../images/Q3s.pdf, page1 used on input line 223.
-(pdftex.def)             Requested size: 597.551pt x 845.07518pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 1>
-Package pdftex.def Info: ../images/Q3s.pdf, page1 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 \end{enumerate}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ucs\uni-1.def"
 File: uni-1.def 2013/05/13 UCS: Unicode data U+0100..U+01FF
@@ -1117,11 +1100,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<../images/eelogo.png, id=10, 617.30624pt x 489.83pt>
+<../images/eelogo.png, id=4, 617.30624pt x 489.83pt>
 File: ../images/eelogo.png Graphic file (type png)
 
 <use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
+Package pdftex.def Info: ../images/eelogo.png used on input line 229.
 (pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
 
 
@@ -1132,515 +1115,25 @@ Package Fancyhdr Warning: \footskip is too small (30.0pt):
 
 [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <../images/Q3.png> <../images/eelogo.png>]
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 1>
-Package pdftex.def Info: ../images/Q3s.pdf, page1 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 1>
-Package pdftex.def Info: ../images/Q3s.pdf, page1 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 1>
-Package pdftex.def Info: ../images/Q3s.pdf, page1 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [2 <../images/Q3s.pdf>]
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=76, page=2, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 2>
-Package pdftex.def Info: ../images/Q3s.pdf, page2 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 2>
-Package pdftex.def Info: ../images/Q3s.pdf, page2 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 2>
-Package pdftex.def Info: ../images/Q3s.pdf, page2 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [3 <../images/Q3s.pdf>]
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=165, page=3, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 3>
-Package pdftex.def Info: ../images/Q3s.pdf, page3 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 3>
-Package pdftex.def Info: ../images/Q3s.pdf, page3 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 3>
-Package pdftex.def Info: ../images/Q3s.pdf, page3 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [4 <../images/Q3s.pdf>]
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=237, page=4, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 4>
-Package pdftex.def Info: ../images/Q3s.pdf, page4 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 4>
-Package pdftex.def Info: ../images/Q3s.pdf, page4 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 4>
-Package pdftex.def Info: ../images/Q3s.pdf, page4 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [5 <../images/Q3s.pdf>]
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=293, page=5, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 5>
-Package pdftex.def Info: ../images/Q3s.pdf, page5 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 5>
-Package pdftex.def Info: ../images/Q3s.pdf, page5 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 5>
-Package pdftex.def Info: ../images/Q3s.pdf, page5 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [6 <../images/Q3s.pdf>]
-
-pdfTeX warning: pdflatex (file ../images/Q3s.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<../images/Q3s.pdf, id=354, page=6, 597.55246pt x 845.07724pt>
-File: ../images/Q3s.pdf Graphic file (type pdf)
-
-<use ../images/Q3s.pdf, page 6>
-Package pdftex.def Info: ../images/Q3s.pdf, page6 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-File: ../images/Q3s.pdf Graphic file (type pdf)
- <use ../images/Q3s.pdf, page 6>
-Package pdftex.def Info: ../images/Q3s.pdf, page6 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 223.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/Q3s.pdf Graphic file (type pdf)
-<use ../images/Q3s.pdf, page 6>
-Package pdftex.def Info: ../images/Q3s.pdf, page6 used on input line 223.
-(pdftex.def)             Requested size: 537.79224pt x 760.5625pt.
- [7 <../images/Q3s.pdf>]
-<../images/Q4.png, id=404, 690.32906pt x 307.1475pt>
-File: ../images/Q4.png Graphic file (type png)
- <use ../images/Q4.png>
-Package pdftex.def Info: ../images/Q4.png used on input line 229.
-(pdftex.def)             Requested size: 448.07378pt x 199.3623pt.
-
-<../images/Q4s.png, id=405, 514.92375pt x 218.31563pt>
-File: ../images/Q4s.png Graphic file (type png)
- <use ../images/Q4s.png>
-Package pdftex.def Info: ../images/Q4s.png used on input line 236.
-(pdftex.def)             Requested size: 448.07378pt x 189.97635pt.
-
-<../images/Q6.png, id=406, 854.44218pt x 90.3375pt>
-File: ../images/Q6.png Graphic file (type png)
- <use ../images/Q6.png>
-Package pdftex.def Info: ../images/Q6.png used on input line 245.
-(pdftex.def)             Requested size: 448.07378pt x 47.37274pt.
-
-<../images/Q6s.png, id=407, 465.23813pt x 650.43pt>
-File: ../images/Q6s.png Graphic file (type png)
- <use ../images/Q6s.png>
-Package pdftex.def Info: ../images/Q6s.png used on input line 252.
-(pdftex.def)             Requested size: 448.07378pt x 626.4502pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 255.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8 <../images/Q4.png> <../images/Q4s.png> <../images/Q6.png>]
-Overfull \vbox (36.65518pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 255.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <../images/Q6s.png>] <../images/Q8.png, id=418, 837.1275pt x 204.01219pt>
-File: ../images/Q8.png Graphic file (type png)
-
-<use ../images/Q8.png>
-Package pdftex.def Info: ../images/Q8.png used on input line 262.
-(pdftex.def)             Requested size: 448.07378pt x 109.1968pt.
- <../images/Q8s.png, id=419, 487.8225pt x 682.80093pt>
-File: ../images/Q8s.png Graphic file (type png)
-
-<use ../images/Q8s.png>
-Package pdftex.def Info: ../images/Q8s.png used on input line 269.
-(pdftex.def)             Requested size: 448.07378pt x 627.17386pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 272.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10 <../images/Q8.png>]
-Overfull \vbox (37.37885pt too high) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 272.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11 <../images/Q8s.png>] <../images/Q9.png, id=428, 987.69pt x 259.7203pt>
-File: ../images/Q9.png Graphic file (type png)
-
-<use ../images/Q9.png>
-Package pdftex.def Info: ../images/Q9.png used on input line 277.
-(pdftex.def)             Requested size: 448.07378pt x 117.82417pt.
- <../images/Q9s.png, id=429, 493.845pt x 322.20375pt>
-File: ../images/Q9s.png Graphic file (type png)
-
-<use ../images/Q9s.png>
-Package pdftex.def Info: ../images/Q9s.png used on input line 284.
-(pdftex.def)             Requested size: 448.07378pt x 292.34058pt.
-
-<../images/Q11-12-13.png, id=430, 252.19218pt x 135.50626pt>
-File: ../images/Q11-12-13.png Graphic file (type png)
-
-<use ../images/Q11-12-13.png>
-Package pdftex.def Info: ../images/Q11-12-13.png used on input line 292.
-(pdftex.def)             Requested size: 448.07378pt x 240.75786pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 295.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12 <../images/Q9.png> <../images/Q9s.png>]
-<../images/Q11.png, id=436, 889.82437pt x 281.55188pt>
-File: ../images/Q11.png Graphic file (type png)
- <use ../images/Q11.png>
-Package pdftex.def Info: ../images/Q11.png used on input line 300.
-(pdftex.def)             Requested size: 448.07378pt x 141.77658pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 304.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13 <../images/Q11-12-13.png> <../images/Q11.png>]
-<../images/Q12.png, id=443, 880.03781pt x 264.99pt>
-File: ../images/Q12.png Graphic file (type png)
- <use ../images/Q12.png>
-Package pdftex.def Info: ../images/Q12.png used on input line 310.
-(pdftex.def)             Requested size: 448.07378pt x 134.92072pt.
-
-<../images/Q12s.png, id=444, 504.38437pt x 145.29282pt>
-File: ../images/Q12s.png Graphic file (type png)
-
-<use ../images/Q12s.png>
-Package pdftex.def Info: ../images/Q12s.png used on input line 317.
-(pdftex.def)             Requested size: 448.07378pt x 129.07297pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 322.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <../images/Q12.png> <../images/Q12s.png>]
-<../images/Q13.png, id=450, 901.86937pt x 433.62pt>
-File: ../images/Q13.png Graphic file (type png)
- <use ../images/Q13.png>
-Package pdftex.def Info: ../images/Q13.png used on input line 327.
-(pdftex.def)             Requested size: 448.07378pt x 215.43985pt.
-
-<../images/Q13s.png, id=451, 515.67656pt x 633.86812pt>
-File: ../images/Q13s.png Graphic file (type png)
-
-<use ../images/Q13s.png>
-Package pdftex.def Info: ../images/Q13s.png used on input line 334.
-(pdftex.def)             Requested size: 448.07378pt x 550.78378pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 337.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <../images/Q13.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 339.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16 <../images/Q13s.png>]
-<../images/Q34.png, id=460, 889.07156pt x 486.31688pt>
-File: ../images/Q34.png Graphic file (type png)
- <use ../images/Q34.png>
-Package pdftex.def Info: ../images/Q34.png used on input line 344.
-(pdftex.def)             Requested size: 448.07378pt x 245.0946pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: ../images/eelogo.png Graphic file (type png)
-<use ../images/eelogo.png>
-Package pdftex.def Info: ../images/eelogo.png used on input line 352.
-(pdftex.def)             Requested size: 76.82234pt x 60.95204pt.
-
-
-Package Fancyhdr Warning: \footskip is too small (30.0pt): 
- Make it at least 60.95204pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17 <../images/Q34.png>] (HW2_with_answers.aux)
+ <../images/eelogo.png>]
+(HW2_with_answers.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29618 strings out of 493333
- 693367 string characters out of 3136576
- 993569 words of memory out of 3000000
- 32577 multiletter control sequences out of 15000+200000
+ 29514 strings out of 493333
+ 691273 string characters out of 3136576
+ 992569 words of memory out of 3000000
+ 32491 multiletter control sequences out of 15000+200000
  4552 words of font info for 17 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,21n,96p,783b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,15n,96p,783b,678s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on HW2_with_answers.pdf (17 pages, 3863897 bytes).
+Output written on HW2_with_answers.pdf (1 page, 97987 bytes).
 PDF statistics:
- 473 PDF objects out of 1000 (max. 8388607)
+ 18 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
